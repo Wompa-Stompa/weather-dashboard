@@ -1,1 +1,1 @@
-# Password Generator Starter Code
+A weather app made using javascript.
