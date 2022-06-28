@@ -55,3 +55,24 @@ input.search-bar {
 button:hover {
     background-color: #00FF00cd;
 }
+
+.description {
+    text-transform: capitalize;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 40px;
+    position: relative;
+}
+
+.weather.loading:after {
+
+    visibility: visible;
+    content: "Type a city into the search bar and go!";
+    color: white;
+    position:absolute;
+    top: 0;
+    left: 20px;
+
+}
