@@ -2,7 +2,7 @@ let weather = {
     apiKey: "cdc24483fe6657247450dd243bbc20d3",
     fetchWeather: function (city) {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid=cdc24483fe6657247450dd243bbc20d3"
+            "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&appid=cdc24483fe6657247450dd243bbc20d3"
         ).then((response) => response.json())
         .then((data) => this.displayWeather(data));
     },

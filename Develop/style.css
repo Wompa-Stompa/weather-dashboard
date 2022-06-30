@@ -70,9 +70,11 @@ button:hover {
 
     visibility: visible;
     content: "Type a city into the search bar and go!";
-    color: white;
+    color: rgb(8, 8, 8);
     position:absolute;
     top: 0;
     left: 20px;
 
 }
+
+
